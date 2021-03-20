@@ -1,0 +1,38 @@
+{
+  "pluginName": "番茄时钟",
+  "description": "番茄时钟",
+  "main": "index.html",
+  "preload": "./js/preload.js",
+  "author": "Trent0",
+  "version": "0.0.1",
+  "logo": "img/logo.png",
+  "features": [
+    {
+      "code": "work",
+      "explain": "工作倒计时",
+      "icon": "logo.png",
+      "cmds": [
+        "工作",
+        "Work"
+      ]
+    },
+    {
+      "code": "tomato",
+      "explain": "番茄时钟",
+      "icon": "logo.png",
+      "cmds": [
+        "番茄",
+        "Tomato"
+      ]
+    },
+    {
+      "code": "rest",
+      "explain": "休息倒计时",
+      "icon": "logo.png",
+      "cmds": [
+        "休息",
+        "Rest"
+      ]
+    }
+  ]
+}
